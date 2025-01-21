@@ -1,7 +1,7 @@
 
 export default function Navbar() {
   return (
-    <div>
+    <div className="m-10">
       <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -47,7 +47,7 @@ export default function Navbar() {
         <a href=""><li className="ml-5 cursor-pointer text-[#FFFFFF] text-[16px] hover:text-orange-500">Contact</li></a>
     </ul>
   </div>
-  <div className="ml-8 bg-[#FD6F00] p-1 rounded-sm">
+  <div className="ml-8 bg-[#FD6F00] p-1 w-[115px] rounded-sm cursor-pointer">
     <a className="text-[#FFFFFF] ">Download CV</a>
   </div>
 </div>
